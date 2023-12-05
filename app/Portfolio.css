@@ -1,0 +1,20 @@
+.app-container {
+    /* margin: 80px calc(10% + 50px); */
+    margin: 0px calc(10% + 80px);
+    display: flex;
+    gap: 10px;
+}
+
+.app-side {
+    flex: 2;
+    margin: 80px 0px;
+}
+
+.app-main {
+    flex: 3;
+    overflow-y: scroll;
+}
+
+.app-main::-webkit-scrollbar {
+    display: none;
+}

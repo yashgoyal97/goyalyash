@@ -1,0 +1,35 @@
+{
+  "name": "goyalyash",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashgoyal97/goyalyash.git"
+  },
+  "keywords": [
+    "react",
+    "portfolio",
+    "yash",
+    "goyal"
+  ],
+  "author": "Yash Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashgoyal97/goyalyash/issues"
+  },
+  "homepage": "https://github.com/yashgoyal97/goyalyash#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rough-notation": "^0.5.1"
+  }
+}

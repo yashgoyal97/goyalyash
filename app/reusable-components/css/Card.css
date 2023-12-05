@@ -1,0 +1,11 @@
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 4;
+}
+
+.card-img {
+    max-width: 100%;
+}

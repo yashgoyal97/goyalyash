@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+#root {
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    /* height: calc(100% - 160px); */
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.border {
+    border: 1px solid rgba(128, 128, 128, 0.363);
+}
+
+.mt-xxs {
+    margin-top: 3px;
+}
+
+.mt-xs {
+    margin-top: 5px;
+}
+
+.mt-s {
+    margin-top: 10px;
+}
+
+.mt-m {
+    margin-top: 20px;
+}
+
+.mt-l {
+    margin-top: 30px;
+}
+
+.mb-xs {
+    margin-bottom: 5px;
+}
+
+.mb-s {
+    margin-bottom: 10px;
+}
+
+.mb-m {
+    margin-bottom: 20px;
+}
+
+.mb-l {
+    margin-bottom: 30px;
+}
+
+.mb-xl {
+    margin-bottom: 50px;
+}
+
+.mb-xxl {
+    margin-bottom: 80px;
+}
+
+.p-xs {
+    padding: 5px;
+}
+
+.p-s {
+    padding: 10px;
+}
+
+.p-m {
+    padding: 20px;
+}
+
+.pt-xxl {
+    padding-top: 80px;
+}
+
+.max-width-70 {
+    max-width: 70%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.fs-sr {
+    font-size: smaller;
+}
+
+.fs-lr {
+    font-size: larger;
+}
+
+.color-sec {
+    color: gray;
+}
